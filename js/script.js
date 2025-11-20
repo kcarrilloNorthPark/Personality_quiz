@@ -2,7 +2,7 @@ let answers = [];
 
 const questionBlocks = document.querySelectorAll(".question-block");
 questionBlocks.forEach((block, index) => {
-  const options = block.querySelectorAll(".option");
+  const buttons  = block.querySelectorAll(".answer-btn");
 
   buttons.forEach(btn => {
         btn.addEventListener("click", () => {
